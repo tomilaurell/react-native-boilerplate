@@ -1,0 +1,26 @@
+Miten käynnistän projektin simulaattorissa:
+1. npm start
+2. Paina "i" ja sovellus aukeaa simulaattorissa
+
+Projekti rakennettu "create-react-native-app Memo"-komennolla
+
+Lisäsin projektiin komponenttikirjaston:
+https://github.com/react-native-training/react-native-elements
+ - Näytti toimivan suoraan
+
+Lisäsin routerin:
+https://reactnavigation.org/docs/intro/
+ - Todella selkeä esimerkki ja näytti myös toimivan
+
+Lisäsin projektiin:
+yarn add babel-plugin-module-resolver --dev
+- vaatii myös module-resolver osuuden .babelrc-tiedostoon
+- Tämä mahdollistaa dynaamiset importit
+
+npm install babel-root-slash-import --save-dev
+
+Taskilista:
+- Kokeile HomeScreen-sivulle hakea jotakin sagan yli
+
+
+babelrc: preset oli: babel-preset-expo

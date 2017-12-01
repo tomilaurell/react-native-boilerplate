@@ -1,0 +1,16 @@
+{
+  "presets": ["react-native"],
+  "env": {
+    "development": {
+      "plugins": ["transform-react-jsx-source"]
+    }
+  },
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./app"]
+      }
+    ]
+  ]
+}

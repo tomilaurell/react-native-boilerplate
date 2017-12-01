@@ -1,0 +1,42 @@
+{
+  "name": "Memo",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^3.0.0",
+    "babel-preset-react-native": "^4.0.0",
+    "enzyme": "^3.2.0",
+    "jest-expo": "~20.0.0",
+    "node-plop": "^0.9.0",
+    "plop": "^1.9.0",
+    "react-native-scripts": "1.3.1",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch",
+    "generate": "plop --plopfile internals/generators/index.js"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "^20.0.0",
+    "immutable": "^3.8.2",
+    "lodash": "^4.17.4",
+    "react": "16.0.0-alpha.12",
+    "react-native": "^0.47.0",
+    "react-native-elements": "^0.17.0",
+    "react-native-vector-icons": "^4.4.2",
+    "react-navigation": "^1.0.0-beta.13",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux-immutable": "^4.0.0",
+    "redux-saga": "^0.16.0",
+    "reselect": "^3.0.1"
+  }
+}
