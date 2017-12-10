@@ -20,7 +20,8 @@ yarn add babel-plugin-module-resolver --dev
 npm install babel-root-slash-import --save-dev
 
 Taskilista:
-- Kokeile HomeScreen-sivulle hakea jotakin sagan yli
+- Kopioi boilerplate-projektin formi ja näytä toisella sivulla haetun repon tiedot
+  Jos tulossivulle pääsee myös suoraan, niin voi tarkistaa uudelleen käynnistyksen jälkeen onko datat tallentuneet storeen
 
 
 babelrc: preset oli: babel-preset-expo
